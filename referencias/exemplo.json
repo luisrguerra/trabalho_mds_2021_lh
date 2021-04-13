@@ -58,9 +58,9 @@
  "aluno":{
    "matricula":111111,
    "nome":"Luis Eduardo",
-   "curso":"",
-   "ira":"",
-   "mediaPonderada":"",
+   "curso":"ENGENHARIA DE REDES DE COMUNICAÇÃO/ENE",
+   "ira":"9000",
+   "mediaPonderada":"8000",
    "disciplinasCrusadas":[
      {
        "codigo":"ENE9999",
@@ -79,13 +79,13 @@
     "departmento":"FT",
     "pre-requisitos":[
         {
-         "codigo": "",
-         "nome": ""
+         "codigo": "ENE108561",
+         "nome": "Algoritmos e Estrutura Dados"
         }
     ],
     "turmas": [
          {
-           "codigo": ""
+           "codigo": "TA"
          }
      ]
     }
@@ -93,15 +93,15 @@
 
   "curso":[
     {
-       "codigo": "",
-       "nome": "",
-       "cargaHoraria": "",
-       "curriculo" : "",
+       "codigo": "4444444",
+       "nome": "ENGENHARIA DE REDES DE COMUNICAÇÃO/ENE",
+       "cargaHoraria": "3750",
+       "curriculo" : "...",
        "fluxo" : [
           {
-             "codigo": "",
-             "nome": "",
-             "obrigatoria": true
+             "codigo": "ENE0276",
+             "nome": "METODOLOGIA E DESENVOLVIMENTO DE SOFTWARE",
+             "obrigatoria": false
           }
         ]
     }
