@@ -1,0 +1,17 @@
+{
+ "aluno":{
+   "matricula":111111,
+   "nome":"Luis Eduardo",
+   "curso":"ENGENHARIA DE REDES DE COMUNICAÇÃO/ENE",
+   "ira":"9000",
+   "mediaPonderada":"8000",
+   "disciplinasCrusadas":[
+     {
+       "codigo":"ENE9999",
+       "nome":"O segredo da felicidade II",
+       "periodoLetivo":"1500.1",
+       "status":"Aprovado"
+     }
+    ]
+ }
+}

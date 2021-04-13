@@ -1,0 +1,17 @@
+{
+  "curso":[
+    {
+       "codigo": "4444444",
+       "nome": "ENGENHARIA DE REDES DE COMUNICAÇÃO/ENE",
+       "cargaHoraria": "3750",
+       "curriculo" : "...",
+       "fluxo" : [
+          {
+             "codigo": "ENE0276",
+             "nome": "METODOLOGIA E DESENVOLVIMENTO DE SOFTWARE",
+             "obrigatoria": false
+          }
+        ]
+    }
+   ]
+}
