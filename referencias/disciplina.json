@@ -3,8 +3,9 @@
     {
     "codigo":"ENE0276",
     "nome":"METODOLOGIA E DESENVOLVIMENTO DE SOFTWARE",
-    "creditos":"4",
+    "creditos":4,
     "departmento":"FT",
+    "cargaHorariaAula":60,
     "pre-requisitos":[
         {
          "codigo": "ENE108561",
