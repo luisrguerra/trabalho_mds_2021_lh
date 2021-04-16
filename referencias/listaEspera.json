@@ -1,0 +1,13 @@
+
+{
+  "listaEspera":[
+      {
+       "matricula": "100030",
+       "nome": "Friedrich Nietzsche"
+      },
+      {
+       "matricula": "410300",
+       "nome": "Charles Darwin"
+      }
+   ]
+}
