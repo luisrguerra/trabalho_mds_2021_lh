@@ -1,0 +1,18 @@
+
+{
+  "horariosAula":[
+   {
+     "diaSemana": "Segunda",
+     "horarios": [
+        {
+         "inicio": "8",
+         "fim": "10"
+        },
+        {
+         "inicio": "15",
+         "fim": "16"
+        }
+      ]
+   }
+  ]
+}
