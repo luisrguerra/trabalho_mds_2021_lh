@@ -1,0 +1,13 @@
+
+{
+  "matriculados": [
+      {
+       "matricula": "100000",
+       "nome": "Alberto Santos-Dumont"
+      },
+      {
+       "matricula": "210000",
+       "nome": "Maria Leopoldina"
+      }
+   ]
+}
