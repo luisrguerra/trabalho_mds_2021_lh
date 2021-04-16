@@ -1,0 +1,10 @@
+{
+ "matricula":[
+    {
+      "aluno": "Luis Guerra",
+      "disciplina": "ENE0276",
+      "turma": "TA",
+      "status": "Confirmado"
+    }
+  ]
+}
