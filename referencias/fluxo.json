@@ -1,0 +1,26 @@
+{
+  "fluxo" : [
+     {
+        "diciplina":{
+         "codigo":"ENE0276",
+         "nome":"METODOLOGIA E DESENVOLVIMENTO DE SOFTWARE",
+         "creditos":"4",
+         "departmento":"FT",
+         "pre-requisitos":[
+             {
+              "codigo": "ENE108561",
+              "nome": "Algoritmos e Estrutura Dados"
+             }
+         ],
+         "turmas": [
+              {
+                "codigo": "TA"
+              }
+          ]
+        },
+        
+        "obrigatoria": false
+     }
+   ]
+}
+
