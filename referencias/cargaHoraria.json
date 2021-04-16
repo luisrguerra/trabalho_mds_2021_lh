@@ -1,0 +1,13 @@
+
+[
+  {
+     "cargaHoraria": {
+       "obrigatorias": "2100",
+       "optativaMinima": "1650",
+       "complementarMinima": "0",
+       "minimaPeriodoLetivo": "4444444",
+       "periodosMinimos": "10",
+       "periodosMaximos": "20"
+      }
+  }
+]
