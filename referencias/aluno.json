@@ -1,7 +1,11 @@
 {
  "aluno":{
    "matricula":111111,
-   "nome":"Heitor Gomes",
+<<<<<<< HEAD
+   "nome":"Heitor Gomes Pereira",
+=======
+   "nome":"Luis",
+>>>>>>> 5b3ec2d7cc07a33c6c34cd9db2d99e21927e544e
    "curso":"ENGENHARIA DE REDES DE COMUNICAÇÃO/ENE",
    "ira":"9000",
    "mediaPonderada":"8000",
