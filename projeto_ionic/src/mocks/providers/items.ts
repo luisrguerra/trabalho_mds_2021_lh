@@ -49,6 +49,11 @@ export class Items {
         "name": "Metodologia e Desenvolvimento de Software",
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "ENE0276"
+      },
+      {
+        "name": "Cálculo 1",
+        "profilePic": "assets/img/speakers/puppy.jpg",
+        "about": "MAT0024"
       }
     ];
 

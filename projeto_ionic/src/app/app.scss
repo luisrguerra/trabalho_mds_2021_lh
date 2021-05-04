@@ -16,9 +16,10 @@
 // automatically applied to the <body> element in the app.
 
 
-//overflow-y: suto;
+//overflow-y: auto;
 //tirar barra de rolagem
+//overflow: hidden;
 .scroll-content {
-    overflow: hidden;
+    overflow: auto;
 
 }
