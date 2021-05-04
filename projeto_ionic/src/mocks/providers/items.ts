@@ -16,39 +16,39 @@ export class Items {
   constructor() {
     let items = [
       {
-        "name": "Burt Bear",
+        "name": "Cálculo 3",
         "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "about": "ENE0027"
       },
       {
-        "name": "Charlie Cheetah",
+        "name": "Física 2 Experimental",
         "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
+        "about": "IFD0177"
       },
       {
-        "name": "Donald Duck",
+        "name": "Fundamentos de Redes",
         "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
+        "about": "ENE0274"
       },
       {
-        "name": "Eva Eagle",
+        "name": "Projeto Transversal em Redes de Comunicações",
         "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
+        "about": "ENE0022"
       },
       {
-        "name": "Ellie Elephant",
+        "name": "Introdução à Economia",
         "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
+        "about": "ECO0019"
       },
       {
-        "name": "Molly Mouse",
+        "name": "Introdução à Atividade Empresarial",
         "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
+        "about": "FTD0007"
       },
       {
-        "name": "Paul Puppy",
+        "name": "Metodologia e Desenvolvimento de Software",
         "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
+        "about": "ENE0276"
       }
     ];
 
