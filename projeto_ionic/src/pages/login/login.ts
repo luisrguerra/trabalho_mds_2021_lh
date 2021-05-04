@@ -34,6 +34,9 @@ export class LoginPage {
 
   // Attempt to login in through our User service
   doLogin() {
+    this.navCtrl.push(MainPage);
+    //remoção do aviso de erro no login
+    /*
     this.user.login(this.account).subscribe((resp) => {
       this.navCtrl.push(MainPage);
     }, (err) => {
@@ -46,5 +49,6 @@ export class LoginPage {
       });
       toast.present();
     });
+    */
   }
 }
