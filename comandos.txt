@@ -1,0 +1,12 @@
+Criar template simples:ionic start exemplo1 tabs
+Criar template simples "Super":ionic start exemplo4 super --type=ionic-angular
+
+Inicia a demonstração no navegador: ionic serve
+Demonstração no modo "Lab": ionic serve -lab
+Url do modo demonstração: http://localhost:8100/
+Url do modo "Lab": http://localhost:8200/
+
+Mostra os templates: ionic start --list
+Abre Visual Studio Code na pasta: code .
+
+Login app: 180012345
