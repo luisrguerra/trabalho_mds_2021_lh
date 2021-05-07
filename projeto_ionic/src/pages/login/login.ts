@@ -20,7 +20,7 @@ export class LoginPage {
   };
 
   // Our translated text strings
-  private loginErrorString: string;
+  //private loginErrorString: string;
 
   constructor(public navCtrl: NavController,
     public user: User,
@@ -28,7 +28,7 @@ export class LoginPage {
     public translateService: TranslateService) {
 
     this.translateService.get('LOGIN_ERROR').subscribe((value) => {
-      this.loginErrorString = value;
+      //this.loginErrorString = value;
     })
   }
 
