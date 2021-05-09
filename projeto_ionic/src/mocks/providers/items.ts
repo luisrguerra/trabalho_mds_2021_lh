@@ -20,7 +20,6 @@ export class Items {
     let items = [
       {
         "name": "Cálculo 3",
-        "profilePic": "assets/img/speakers/bear.jpg",
         "about": "info",
         "codigo": "ENE0027",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -28,7 +27,6 @@ export class Items {
       },
       {
         "name": "Física 2 Experimental",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
         "about": "info",
         "codigo": "IFD0177",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -36,7 +34,6 @@ export class Items {
       },
       {
         "name": "Fundamentos de Redes",
-        "profilePic": "assets/img/speakers/duck.jpg",
         "about": "info",
         "codigo": "ENE0274",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -44,7 +41,6 @@ export class Items {
       },
       {
         "name": "Projeto Transversal em Redes de Comunicações",
-        "profilePic": "assets/img/speakers/eagle.jpg",
         "about": "info",
         "codigo": "ENE0022",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -52,7 +48,6 @@ export class Items {
       },
       {
         "name": "Introdução à Economia",
-        "profilePic": "assets/img/speakers/elephant.jpg",
         "about": "info",
         "codigo": "ECO0019",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -60,7 +55,6 @@ export class Items {
       },
       {
         "name": "Introdução à Atividade Empresarial",
-        "profilePic": "assets/img/speakers/mouse.jpg",
         "about": "info",
         "codigo": "FTD0007",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -68,7 +62,6 @@ export class Items {
       },
       {
         "name": "Metodologia e Desenvolvimento de Software",
-        "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "info",
         "codigo": "ENE0276",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -76,7 +69,6 @@ export class Items {
       },
       {
         "name": "Cálculo 1",
-        "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "info",
         "codigo": "MAT0024",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
