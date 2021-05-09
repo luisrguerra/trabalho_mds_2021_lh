@@ -10,6 +10,7 @@ export class Items {
     "name": "Burt Bear",
     "profilePic": "assets/img/speakers/bear.jpg",
     "about": "Burt is a Bear.",
+    "status": "PreMatrícula",
   };
 
 
@@ -18,42 +19,50 @@ export class Items {
       {
         "name": "Cálculo 3",
         "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "ENE0027"
+        "about": "ENE0027",
+        "status": "PreMatrícula"
       },
       {
         "name": "Física 2 Experimental",
         "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "IFD0177"
+        "about": "IFD0177",
+        "status": "PreMatrícula"
       },
       {
         "name": "Fundamentos de Redes",
         "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "ENE0274"
+        "about": "ENE0274",
+        "status": "PreMatrícula"
       },
       {
         "name": "Projeto Transversal em Redes de Comunicações",
         "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "ENE0022"
+        "about": "ENE0022",
+        "status": "PreMatrícula"
       },
       {
         "name": "Introdução à Economia",
         "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "ECO0019"
+        "about": "ECO0019",
+        "status": "PreMatrícula"
       },
       {
         "name": "Introdução à Atividade Empresarial",
         "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "FTD0007"
+        "about": "FTD0007",
+        "status": "PreMatrícula"
       },
       {
         "name": "Metodologia e Desenvolvimento de Software",
         "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "ENE0276"
+        "about": "ENE0276",
+        "status": "PreMatrícula"
       },
       {
         "name": "Cálculo 1",
         "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "MAT0024"
+        "about": "MAT0024",
+        "status": "PreMatrícula"
       }
     ];
 
