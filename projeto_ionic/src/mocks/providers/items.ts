@@ -10,6 +10,7 @@ export class Items {
     "name": "Burt Bear",
     "profilePic": "assets/img/speakers/bear.jpg",
     "about": "Burt is a Bear.",
+    "codigo": "xxxxxx",
     "status": "Pré-Matrícula",
   };
 
@@ -19,49 +20,57 @@ export class Items {
       {
         "name": "Cálculo 3",
         "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "ENE0027",
+        "about": "info",
+        "codigo": "ENE0027",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Física 2 Experimental",
         "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "IFD0177",
+        "about": "info",
+        "codigo": "IFD0177",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Fundamentos de Redes",
         "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "ENE0274",
+        "about": "info",
+        "codigo": "ENE0274",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Projeto Transversal em Redes de Comunicações",
         "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "ENE0022",
+        "about": "info",
+        "codigo": "ENE0022",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Introdução à Economia",
         "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "ECO0019",
+        "about": "info",
+        "codigo": "ECO0019",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Introdução à Atividade Empresarial",
         "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "FTD0007",
+        "about": "info",
+        "codigo": "FTD0007",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Metodologia e Desenvolvimento de Software",
         "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "ENE0276",
+        "about": "info",
+        "codigo": "ENE0276",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Cálculo 1",
         "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "MAT0024",
+        "about": "info",
+        "codigo": "MAT0024",
         "status": "Pré-Matrícula"
       }
     ];
