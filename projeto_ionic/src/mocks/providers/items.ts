@@ -11,6 +11,7 @@ export class Items {
     "profilePic": "assets/img/speakers/bear.jpg",
     "about": "Burt is a Bear.",
     "codigo": "xxxxxx",
+    "horario": "xxxxxx\nzzzzzzz",
     "status": "Pré-Matrícula",
   };
 
@@ -22,6 +23,7 @@ export class Items {
         "profilePic": "assets/img/speakers/bear.jpg",
         "about": "info",
         "codigo": "ENE0027",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
@@ -29,6 +31,7 @@ export class Items {
         "profilePic": "assets/img/speakers/cheetah.jpg",
         "about": "info",
         "codigo": "IFD0177",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
@@ -36,6 +39,7 @@ export class Items {
         "profilePic": "assets/img/speakers/duck.jpg",
         "about": "info",
         "codigo": "ENE0274",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
@@ -43,6 +47,7 @@ export class Items {
         "profilePic": "assets/img/speakers/eagle.jpg",
         "about": "info",
         "codigo": "ENE0022",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
@@ -50,6 +55,7 @@ export class Items {
         "profilePic": "assets/img/speakers/elephant.jpg",
         "about": "info",
         "codigo": "ECO0019",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
@@ -57,6 +63,7 @@ export class Items {
         "profilePic": "assets/img/speakers/mouse.jpg",
         "about": "info",
         "codigo": "FTD0007",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
@@ -64,6 +71,7 @@ export class Items {
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "info",
         "codigo": "ENE0276",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
@@ -71,6 +79,7 @@ export class Items {
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "info",
         "codigo": "MAT0024",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       }
     ];
