@@ -51,4 +51,11 @@ export class ListMasterPage {
       item: item
     });
   }
+
+  sairApp() {
+    this.navCtrl.setRoot('WelcomePage', {}, {
+      animate: true,
+      direction: 'forward'
+    });
+  }
 }
