@@ -42,7 +42,6 @@ export class MyApp {
     { title: 'Lista', component: 'ListMasterPage' },
     { title: 'Menu', component: 'MenuPage' },
     { title: 'Histórico', component: 'SettingsPage' },
-    { title: 'Histórico2', component: 'HistoricoPage' },
     { title: 'Pesquisa', component: 'SearchPage' }
   ]
 

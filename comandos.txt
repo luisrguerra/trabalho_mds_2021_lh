@@ -10,5 +10,3 @@ Mostra os templates: ionic start --list
 Abre Visual Studio Code na pasta: code .
 
 Login app: 180012345
-
-Criar uma página em branco: ionic generate page nome_pagina
