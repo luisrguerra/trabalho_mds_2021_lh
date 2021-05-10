@@ -15,4 +15,18 @@ export class ItemDetailPage {
     this.item = navParams.get('item') || items.defaultItem;
   }
 
+
+  retirarBotao() {
+    this.navCtrl.setRoot('ListMasterPage', {}, {
+      animate: true,
+      direction: 'forward'
+    });
+  }
+
+  confirmarBotao() {
+    this.navCtrl.setRoot('ListMasterPage', {}, {
+      animate: true,
+      direction: 'forward'
+    });
+  }
 }
