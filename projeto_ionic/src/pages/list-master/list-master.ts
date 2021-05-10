@@ -58,4 +58,12 @@ export class ListMasterPage {
       direction: 'forward'
     });
   }
+
+  confirmarListaBotao() {
+    this.navCtrl.setRoot('ListMasterPage', {}, {
+      animate: true,
+      direction: 'forward'
+    });
+  }
+  
 }
