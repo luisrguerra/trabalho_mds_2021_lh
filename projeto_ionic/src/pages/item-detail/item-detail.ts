@@ -25,6 +25,7 @@ export class ItemDetailPage {
   }
 
   confirmarBotao() {
+    this.item.status = "Confirmado";
     this.navCtrl.setRoot('ListMasterPage', {}, {
       animate: true,
       direction: 'forward'
