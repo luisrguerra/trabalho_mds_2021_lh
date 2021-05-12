@@ -31,4 +31,12 @@ export class ItemOfertaPage {
       direction: 'forward'
     });
   }
+
+  matricularBotao() {
+
+    this.navCtrl.setRoot('SearchPage', {}, {
+      animate: true,
+      direction: 'forward'
+    });
+  }
 }
