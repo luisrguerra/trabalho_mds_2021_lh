@@ -46,11 +46,11 @@ export class HistoricoPage {
   /**
    * Navigate to the detail page for this item.
    */
-  openItem(item: Item) {
+  /*openItem(item: Item) {
     this.navCtrl.push('ItemDetailPage', {
       item: item
     });
-  }
+  } */
 
   sairApp() {
     this.nav.setRoot('WelcomePage', {}, {
