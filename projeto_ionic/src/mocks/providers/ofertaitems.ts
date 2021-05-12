@@ -18,13 +18,49 @@ export class ItemsOferta {
   constructor() {
     let itemsOferta = [
       {
-        "name": "Produção de Queijo",
+        "name": "Cálculo 3",
         "codigo": "ENE0027",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
-        "name": "Produção de doce de leite",
+        "name": "Física 2 Experimental",
+        "codigo": "IFD0177",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
+        "status": "Pré-Matrícula"
+      },
+      {
+        "name": "Fundamentos de Redes",
+        "codigo": "ENE0274",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
+        "status": "Pré-Matrícula"
+      },
+      {
+        "name": "Projeto Transversal em Redes de Comunicações",
+        "codigo": "ENE0022",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
+        "status": "Pré-Matrícula"
+      },
+      {
+        "name": "Introdução à Economia",
+        "codigo": "ECO0019",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
+        "status": "Pré-Matrícula"
+      },
+      {
+        "name": "Introdução à Atividade Empresarial",
+        "codigo": "FTD0007",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
+        "status": "Pré-Matrícula"
+      },
+      {
+        "name": "Metodologia e Desenvolvimento de Software",
+        "codigo": "ENE0276",
+        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
+        "status": "Pré-Matrícula"
+      },
+      {
+        "name": "Cálculo 1",
         "codigo": "MAT0024",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
