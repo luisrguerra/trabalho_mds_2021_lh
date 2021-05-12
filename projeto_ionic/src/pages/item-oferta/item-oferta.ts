@@ -18,7 +18,7 @@ export class ItemOfertaPage {
 
   retirarBotao() {
     this.itemsOferta.delete(this.item);
-    this.navCtrl.setRoot('ListMasterPage', {}, {
+    this.navCtrl.setRoot('SearchPage', {}, {
       animate: true,
       direction: 'forward'
     });
@@ -26,7 +26,7 @@ export class ItemOfertaPage {
 
   confirmarBotao() {
     this.item.status = "Confirmado";
-    this.navCtrl.setRoot('ListMasterPage', {}, {
+    this.navCtrl.setRoot('SearchPage', {}, {
       animate: true,
       direction: 'forward'
     });
