@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { ItemsOferta } from '../../providers';
+import { Items } from '../../providers';
 
 @IonicPage()
 @Component({
@@ -11,7 +12,7 @@ import { ItemsOferta } from '../../providers';
 export class ItemOfertaPage {
   item: any;
 
-  constructor(public navCtrl: NavController, navParams: NavParams,public itemsOferta: ItemsOferta) {
+  constructor(public navCtrl: NavController, navParams: NavParams,public itemsOferta: ItemsOferta,public items: Items) {
     this.item = navParams.get('item') || itemsOferta.defaultItem;
   }
 
@@ -33,7 +34,7 @@ export class ItemOfertaPage {
   }
 
   matricularBotao() {
-
+    this.items.add(this.item);
     this.navCtrl.setRoot('SearchPage', {}, {
       animate: true,
       direction: 'forward'
