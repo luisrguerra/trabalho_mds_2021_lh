@@ -1,0 +1,35 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ item.name }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <!-- Remoção das fotos de animais -->
+  <!-- <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div> -->
+
+  <div class="item-detail" padding>
+    <h2>{{item.name}}</h2>
+    <h6>Código: {{item.codigo}}</h6>
+    <br>
+    <p>Horários:</p>
+    <p style="white-space: pre;">{{item.horario}}</p>
+    <!-- <p>{{item.about}}</p> -->
+    <p>Status: {{item.status}}</p>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <div style="margin-left: 6px;margin-right: 6px;margin-bottom: 6px;margin-bottom: 6px; display:flex;">
+    <button large ion-button block (click)="retirarBotao()" style="background-color: #c62828;height: 2em;margin:4px;">
+      <ion-icon name="close-circle"></ion-icon>&nbsp;Retirar
+    </button>
+    <button large ion-button block (click)="confirmarBotao()" style="background-color: #228B41;height: 2em;margin:4px;">
+      <ion-icon name="checkmark-circle"></ion-icon>&nbsp;Confirmar
+    </button>
+  </div>
+</ion-footer>

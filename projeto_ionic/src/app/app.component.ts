@@ -43,6 +43,7 @@ export class MyApp {
     { title: 'Menu', component: 'MenuPage' },
     { title: 'Histórico Versão Antiga', component: 'SettingsPage' },
     { title: 'Histórico', component: 'HistoricoPage' },
+    { title: 'Item Oferta', component: 'ItemOfertaPage' },
     { title: 'Pesquisa', component: 'SearchPage' }
   ]
 
