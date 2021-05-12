@@ -11,6 +11,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { Items } from '../mocks/providers/items';
 import { ItemsHistorico } from '../mocks/providers/historicoitems';
+import { ItemsOferta } from '../mocks/providers/ofertaitems';
 import { Settings, User, Api } from '../providers';
 import { MyApp } from './app.component';
 
@@ -60,6 +61,7 @@ export function provideSettings(storage: Storage) {
     Api,
     Items,
     ItemsHistorico,
+    ItemsOferta,
     User,
     Camera,
     SplashScreen,
