@@ -9,7 +9,6 @@ export class ItemsHistorico {
   defaultItem: any = {
     "name": "Burt Bear",
     //"profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
     "codigo": "xxxxxx",
     "horario": "xxxxxx\nzzzzzzz",
     "status": "Pré-Matrícula",
@@ -20,14 +19,12 @@ export class ItemsHistorico {
     let itemsHistorico = [
       {
         "name": "Produção de Queijo",
-        "about": "info",
         "codigo": "ENE0027",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Produção de doce de leite",
-        "about": "info",
         "codigo": "MAT0024",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"

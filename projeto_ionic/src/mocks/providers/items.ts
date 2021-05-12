@@ -9,7 +9,6 @@ export class Items {
   defaultItem: any = {
     "name": "Burt Bear",
     //"profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
     "codigo": "xxxxxx",
     "horario": "xxxxxx\nzzzzzzz",
     "status": "Pré-Matrícula",
@@ -20,56 +19,48 @@ export class Items {
     let items = [
       {
         "name": "Cálculo 3",
-        "about": "info",
         "codigo": "ENE0027",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Física 2 Experimental",
-        "about": "info",
         "codigo": "IFD0177",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Fundamentos de Redes",
-        "about": "info",
         "codigo": "ENE0274",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Projeto Transversal em Redes de Comunicações",
-        "about": "info",
         "codigo": "ENE0022",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Introdução à Economia",
-        "about": "info",
         "codigo": "ECO0019",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Introdução à Atividade Empresarial",
-        "about": "info",
         "codigo": "FTD0007",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Metodologia e Desenvolvimento de Software",
-        "about": "info",
         "codigo": "ENE0276",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
       },
       {
         "name": "Cálculo 1",
-        "about": "info",
         "codigo": "MAT0024",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"

@@ -26,7 +26,7 @@ export class HistoricoPage {
    * Prompt the user to add a new item. This shows our ItemCreatePage in a
    * modal and then adds the new item to our data source if the user created one.
    */
-  addItem() {
+  /*addItem() {
     let addModal = this.modalCtrl.create('ItemCreatePage');
     addModal.onDidDismiss(item => {
       if (item) {
@@ -34,14 +34,15 @@ export class HistoricoPage {
       }
     })
     addModal.present();
-  }
+  }  */
 
   /**
    * Delete an item from the list of items.
    */
-  deleteItem(item) {
+  
+  /*deleteItem(item) {
     this.itemsHistorico.delete(item);
-  }
+  }*/
 
   /**
    * Navigate to the detail page for this item.
