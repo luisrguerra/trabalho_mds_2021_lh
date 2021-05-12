@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage,Nav, ModalController, NavController } from 'ionic-angular';
 
 import { Item } from '../../models/item';
-import { Items } from '../../providers';
+import { ItemsHistorico } from '../../providers';
 
 @IonicPage()
 @Component({
@@ -12,8 +12,8 @@ import { Items } from '../../providers';
 export class HistoricoPage {
   currentItems: Item[];
 
-  constructor(public nav: Nav, public navCtrl: NavController, public items: Items, public modalCtrl: ModalController) {
-    this.currentItems = this.items.query();
+  constructor(public nav: Nav, public navCtrl: NavController, public itemsHistorico: ItemsHistorico, public modalCtrl: ModalController) {
+    this.currentItems = this.itemsHistorico.query();
   }
 
   /**
@@ -30,7 +30,7 @@ export class HistoricoPage {
     let addModal = this.modalCtrl.create('ItemCreatePage');
     addModal.onDidDismiss(item => {
       if (item) {
-        this.items.add(item);
+        this.itemsHistorico.add(item);
       }
     })
     addModal.present();
@@ -40,7 +40,7 @@ export class HistoricoPage {
    * Delete an item from the list of items.
    */
   deleteItem(item) {
-    this.items.delete(item);
+    this.itemsHistorico.delete(item);
   }
 
   /**
@@ -59,11 +59,5 @@ export class HistoricoPage {
     });
   }
 
-  confirmarListaBotao() {
-    this.navCtrl.setRoot('ListMasterPage', {}, {
-      animate: true,
-      direction: 'forward'
-    });
-  }
   
 }
