@@ -7,11 +7,11 @@ export class ItemsOferta {
   itemsOferta: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
+    "name": "Nome da disciplina Ofertada",
     //"profilePic": "assets/img/speakers/bear.jpg",
-    "codigo": "xxxxxx",
-    "horario": "xxxxxx\nzzzzzzz",
-    "status": "Pré-Matrícula",
+    "codigo": "Código da Disciplina",
+    "horario": "Horário da Disciplina",
+    "status": "Status da disciplina",
   };
 
 
