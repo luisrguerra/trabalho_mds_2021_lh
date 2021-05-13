@@ -1,3 +1,28 @@
 page-item-oferta {
+    button.botaomatricular {
+        margin: auto;
+        background-color: #228B41;
+        height: 2em;
+    
+    }
+    button.botaomatricular:hover:not(.disable-hover){
+        background-color: #228B41;
+    }
+    button.botaomatricular.activated{
+        background-color: #228B41;
+    }
+    @media screen and (min-width: 800px) {
+        button.botaomatricular{
+           max-width: 10em;
+        }
+        
+    }
+
+    .botaomargem{
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-bottom: 9px;
+        margin-top: 0px;
+    }
 
 }

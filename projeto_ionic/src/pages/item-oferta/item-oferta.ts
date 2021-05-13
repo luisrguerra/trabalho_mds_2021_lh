@@ -6,7 +6,7 @@ import { Items } from '../../providers';
 
 @IonicPage()
 @Component({
-  selector: 'ppage-item-oferta',
+  selector: 'page-item-oferta',
   templateUrl: 'item-oferta.html'
 })
 export class ItemOfertaPage {
