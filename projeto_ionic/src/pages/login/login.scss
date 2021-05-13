@@ -12,12 +12,12 @@ page-login {
       }
       
       
-      @media screen and (max-width: 800px){
+      @media screen and (max-width: 700px){
         ion-item.margemimput{
             padding-inline: 6%;
         }
       }
-      @media screen and (min-width: 800px) {
+      @media screen and (min-width: 700px) {
         button.login{
            max-width: 7em;
            margin-left: auto;

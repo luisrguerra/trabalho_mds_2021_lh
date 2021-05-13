@@ -47,7 +47,7 @@ page-welcome {
   button.login.activated{
       background-color: #228B41;
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 700px) {
       button.login{
          max-width: 7em;
          margin: auto;
