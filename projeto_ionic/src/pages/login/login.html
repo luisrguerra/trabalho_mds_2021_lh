@@ -8,9 +8,11 @@
 
 
 <ion-content>
-  <form (submit)="doLogin()">
+  <form style="max-width: 70em;margin: auto;" (submit)="doLogin()">
     <ion-list>
-
+      
+      <br>
+      <br>
       <ion-item>
         <ion-label fixed>Matrícula</ion-label>
         <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
@@ -31,8 +33,9 @@
       </ion-item>
       
       <br>
+      <br>
       <div padding>
-        <button ion-button color="primary" style="background-color: #228B41;max-width: 25em;margin: auto;" block>Entrar</button>
+        <button ion-button color="primary" style="background-color: #228B41;max-width: 25em;margin-left: auto;" block>Entrar</button>
       </div>
 
     </ion-list>
