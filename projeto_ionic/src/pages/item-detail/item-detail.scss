@@ -11,4 +11,43 @@ page-item-detail {
     background: white;
     position: absolute;
   }
+
+  button.botoes {
+    margin: auto;
+    background-color: #228B41;
+    height: 2em;
+
+  }
+
+  button.botoes:hover:not(.disable-hover){
+      background-color: #228B41;
+  }
+  button.botoes.activated{
+      background-color: #228B41;
+  }
+  
+  button.botaovermelho{
+    background-color: #c62828;
+  }
+  button.botaovermelho:hover:not(.disable-hover){
+    background-color: #c62828;
+  }
+  button.botaovermelho.activated{
+    background-color: #c62828;
+  }
+
+  @media screen and (min-width: 700px) {
+      button.botoes{
+         max-width: 9em;
+      }
+      
+  }
+  
+  .botaomargem{
+      margin-left: 6px;
+      margin-right: 6px;
+      margin-bottom: 9px;
+      margin-top: 0px;
+  }
+    
 }
