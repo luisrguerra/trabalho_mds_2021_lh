@@ -8,34 +8,33 @@
 
 
 <ion-content>
-  <form class="margem"(submit)="doLogin()">
-    <ion-list>
+  <form class="margem" (submit)="doLogin()">
+    <ion-list mode="ios">
       
       <br>
       <br>
-      <ion-item class="margemimput">
-        <ion-label fixed>Matrícula</ion-label>
-        <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+      <div class="margem">
+       <ion-item no-lines class="margem label">
+         <ion-label class="tema">Matrícula</ion-label>
+       </ion-item>
+       <ion-item mode="ios" class="margem input">
+        <ion-input mode="ios" type="email" [(ngModel)]="account.email" name="email"></ion-input>
       </ion-item>
+      </div>
 
-      <!--
-      Want to use a Username instead of an Email? Here you go:
-
-      <ion-item>
-        <ion-label floating>{{ 'USERNAME' | translate }}</ion-label>
-        <ion-input type="text" [(ngModel)]="account.username" name="username"></ion-input>
-      </ion-item>
-      -->
-
-      <ion-item class="margemimput">
-        <ion-label fixed>Senha</ion-label>
-        <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
-      </ion-item>
+      <div class="margem">
+        <ion-item no-lines class="margem label">
+          <ion-label class="tema">Senha</ion-label>
+        </ion-item>
+        <ion-item mode="ios" class="margem input">
+          <ion-input mode="ios" type="password" [(ngModel)]="account.password" name="password"></ion-input>
+       </ion-item>
+       </div>
       
       <br>
       <br>
       <div padding>
-        <button ion-button class="login" block>Entrar</button>
+        <button ion-button class="tema" block>Entrar</button>
       </div>
 
     </ion-list>
