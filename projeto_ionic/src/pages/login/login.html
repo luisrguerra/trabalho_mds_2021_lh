@@ -8,12 +8,12 @@
 
 
 <ion-content>
-  <form style="max-width: 70em;margin: auto;" (submit)="doLogin()">
+  <form class="margem"(submit)="doLogin()">
     <ion-list>
       
       <br>
       <br>
-      <ion-item>
+      <ion-item class="margemimput">
         <ion-label fixed>Matrícula</ion-label>
         <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
       </ion-item>
@@ -27,7 +27,7 @@
       </ion-item>
       -->
 
-      <ion-item>
+      <ion-item class="margemimput">
         <ion-label fixed>Senha</ion-label>
         <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
       </ion-item>

@@ -11,11 +11,24 @@ page-login {
           background-color: #228B41;
       }
       
+      
+      @media screen and (max-width: 800px){
+        ion-item.margemimput{
+            padding-inline: 6%;
+        }
+      }
       @media screen and (min-width: 800px) {
         button.login{
            max-width: 7em;
            margin-left: auto;
            
         }
+        form.margem{
+            max-width: 30em;
+            margin: auto;
+        }
+
       }
+
+      
 }
