@@ -1,3 +1,16 @@
 page-search {
+    .searchbar-md .searchbar-input{
+        border-radius:100px; 
+    }
+    ion-searchbar.tema{
+       margin-top:0.2em;
 
+    }
+    @media screen and (min-width: 700px){
+        ion-searchbar.tema{
+            max-width: 50em;
+            margin-inline: auto;
+        }   
+
+    }
 }
