@@ -1,2 +1,21 @@
 page-login {
+     button.login {
+        background-color: #228B41;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    
+      }
+      button.login:hover:not(.disable-hover){
+          background-color: #228B41;
+      }
+      button.login.activated{
+          background-color: #228B41;
+      }
+      
+      @media screen and (min-width: 800px) {
+        button.login{
+           max-width: 7em;
+           margin-left: auto;
+           
+        }
+      }
 }
