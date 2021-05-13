@@ -11,7 +11,7 @@ import { Settings } from '../providers';
   template: `<ion-menu [content]="content" type="overlay">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Páginas</ion-title>
+        <ion-title>Menu do Desenvolvedor</ion-title>
       </ion-toolbar>
     </ion-header>
 
