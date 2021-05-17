@@ -61,4 +61,22 @@ export class Items {
   delete(item: Item) {
     this.items.splice(this.items.indexOf(item), 1);
   }
+
+  matricular(item: Item){
+    var achou = this.items.indexOf(item);
+    if (achou == -1){
+       this.items.push(item);
+    }
+    
+  }
+
+  confirmar(){
+    for (let item of this.items){
+      var posicao = this.items.indexOf(item);
+      if (this.items[posicao].status == ""){
+        this.items[posicao].status = "Pedido";
+      }
+      
+    }
+  }
 }

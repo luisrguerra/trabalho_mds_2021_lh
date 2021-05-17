@@ -21,49 +21,49 @@ export class ItemsOferta {
         "name": "Cálculo 3",
         "codigo": "ENE0027",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       },
       {
         "name": "Física 2 Experimental",
         "codigo": "IFD0177",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       },
       {
         "name": "Fundamentos de Redes",
         "codigo": "ENE0274",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       },
       {
         "name": "Projeto Transversal em Redes de Comunicações",
         "codigo": "ENE0022",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       },
       {
         "name": "Introdução à Economia",
         "codigo": "ECO0019",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       },
       {
         "name": "Introdução à Atividade Empresarial",
         "codigo": "FTD0007",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       },
       {
         "name": "Metodologia e Desenvolvimento de Software",
         "codigo": "ENE0276",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       },
       {
         "name": "Cálculo 1",
         "codigo": "MAT0024",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
+        "status": ""
       }
     ];
 

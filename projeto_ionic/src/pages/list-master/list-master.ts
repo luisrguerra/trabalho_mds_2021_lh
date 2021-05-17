@@ -60,10 +60,7 @@ export class ListMasterPage {
   }
 
   confirmarListaBotao() {
-    this.navCtrl.setRoot('ListMasterPage', {}, {
-      animate: true,
-      direction: 'forward'
-    });
+    this.items.confirmar();
   }
   
 }

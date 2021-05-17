@@ -34,7 +34,7 @@ export class ItemOfertaPage {
   }
 
   matricularBotao() {
-    this.items.add(this.item);
+    this.items.matricular(this.item);
     this.navCtrl.setRoot('SearchPage', {}, {
       animate: true,
       direction: 'forward'
