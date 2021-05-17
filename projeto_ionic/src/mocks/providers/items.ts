@@ -70,17 +70,20 @@ export class Items {
   matricular(item: Item){
     var achou = this.items.indexOf(item);
     if (achou == -1){
-       this.items.push(item);
        
-       var item_temp = Object.create(item);
+       var item_temp  = Object.create(item);
        item_temp.status = "Pré-selecionado";
-       this.itemsHistorico.registrar(item_temp);
+       this.items.push(item_temp);
+
+       var item_temp2 = Object.create(item);
+       item_temp2.status = "Pré-selecionado";
+       this.itemsHistorico.registrar(item_temp2);
     }
     
   }
   
   confirmar_item(item: Item){
-    if (item.status == ""){
+    if (item.status == "Pré-selecionado"){
       item.status = "Selecionado";
     }
   }
