@@ -17,22 +17,6 @@ export class ItemOfertaPage {
   }
 
 
-  retirarBotao() {
-    this.itemsOferta.delete(this.item);
-    this.navCtrl.setRoot('SearchPage', {}, {
-      animate: true,
-      direction: 'forward'
-    });
-  }
-
-  confirmarBotao() {
-    this.item.status = "Confirmado";
-    this.navCtrl.setRoot('SearchPage', {}, {
-      animate: true,
-      direction: 'forward'
-    });
-  }
-
   matricularBotao() {
     this.items.matricular(this.item);
     this.navCtrl.setRoot('SearchPage', {}, {

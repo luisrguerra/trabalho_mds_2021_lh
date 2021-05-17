@@ -17,18 +17,12 @@ export class ItemsHistorico {
 
   constructor() {
     let itemsHistorico = [
-      {
+      /*{
         "name": "Produção de Queijo",
         "codigo": "ENE0027",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
-      },
-      {
-        "name": "Produção de doce de leite",
-        "codigo": "MAT0024",
-        "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
-        "status": "Pré-Matrícula"
-      }
+      }, */
     ];
 
     for (let item of itemsHistorico) {
@@ -68,7 +62,7 @@ export class ItemsHistorico {
     var minutos = data.getMinutes();
     var horas = data.getHours();
 
-    item_temp.data = " " + minutos + ":" + horas + " - " + dia + "/" + mes + "/" + ano;
+    item_temp.data = " " + horas + ":" + minutos + " - " + dia + "/" + mes + "/" + ano;
     this.itemsHistorico.push(item_temp);
   }
 

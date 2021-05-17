@@ -18,7 +18,7 @@ export class Items {
 
   constructor(public itemsHistorico: ItemsHistorico) {
     let items = [
-      {
+      /*{
         "name": "Metodologia e Desenvolvimento de Software",
         "codigo": "ENE0276",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
@@ -29,7 +29,7 @@ export class Items {
         "codigo": "MAT0024",
         "horario": "SEG: 10:00 às 11:50\nQUA: 10:00 às 11:50",
         "status": "Pré-Matrícula"
-      }
+      } */
     ];
 
     for (let item of items) {
@@ -60,6 +60,10 @@ export class Items {
   }
 
   delete(item: Item) {
+    var item_temp = Object.create(item);
+    item_temp.status = "Retirado";
+    this.itemsHistorico.registrar(item_temp);
+
     this.items.splice(this.items.indexOf(item), 1);
   }
 
@@ -68,7 +72,9 @@ export class Items {
     if (achou == -1){
        this.items.push(item);
        
-       this.itemsHistorico.registrar(item);
+       var item_temp = Object.create(item);
+       item_temp.status = "Pré-selecionado";
+       this.itemsHistorico.registrar(item_temp);
     }
     
   }
@@ -76,8 +82,11 @@ export class Items {
   confirmar(){
     for (let item of this.items){
       var posicao = this.items.indexOf(item);
-      if (this.items[posicao].status == ""){
-        this.items[posicao].status = "Pedido";
+      if (this.items[posicao].status == "Selecionado"){
+        this.items[posicao].status = "Solicitado";
+
+        var item_temp = Object.create(this.items[posicao]);
+        this.itemsHistorico.registrar(item_temp);
       }
       
     }
