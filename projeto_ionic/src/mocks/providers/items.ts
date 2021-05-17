@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { Item } from '../../models/item';
+import { ItemsHistorico} from '../../providers';
 
 @Injectable()
 export class Items {
@@ -15,7 +16,7 @@ export class Items {
   };
 
 
-  constructor() {
+  constructor(public itemsHistorico: ItemsHistorico) {
     let items = [
       {
         "name": "Metodologia e Desenvolvimento de Software",
@@ -66,6 +67,8 @@ export class Items {
     var achou = this.items.indexOf(item);
     if (achou == -1){
        this.items.push(item);
+       
+       this.itemsHistorico.registrar(item);
     }
     
   }

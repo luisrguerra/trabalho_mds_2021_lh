@@ -58,6 +58,20 @@ export class ItemsHistorico {
     this.itemsHistorico.push(item);
   }
 
+  registrar(item: Item) {
+    var item_temp = Object.create(item);
+    var data = new Date();
+
+    var ano = data.getFullYear();
+    var mes = data.getMonth();
+    var dia = data.getDay();
+    var minutos = data.getMinutes();
+    var horas = data.getHours();
+
+    item_temp.data = " " + minutos + ":" + horas + " - " + dia + "/" + mes + "/" + ano;
+    this.itemsHistorico.push(item_temp);
+  }
+
   delete(item: Item) {
     this.itemsHistorico.splice(this.itemsHistorico.indexOf(item), 1);
   }
