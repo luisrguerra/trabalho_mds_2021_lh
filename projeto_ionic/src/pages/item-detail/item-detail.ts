@@ -25,7 +25,9 @@ export class ItemDetailPage {
   }
 
   confirmarBotao() {
-    this.item.status = "Selecionado";
+    this.items.confirmar_item(this.item);
+
+
     this.navCtrl.setRoot('ListMasterPage', {}, {
       animate: true,
       direction: 'forward'

@@ -78,6 +78,12 @@ export class Items {
     }
     
   }
+  
+  confirmar_item(item: Item){
+    if (item.status == ""){
+      item.status = "Selecionado";
+    }
+  }
 
   confirmar(){
     for (let item of this.items){
