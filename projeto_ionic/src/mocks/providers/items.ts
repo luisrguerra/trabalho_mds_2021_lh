@@ -85,6 +85,10 @@ export class Items {
   confirmar_item(item: Item){
     if (item.status == "Pré-selecionado"){
       item.status = "Selecionado";
+      var item_temp = Object.create(item);
+      this.itemsHistorico.registrar(item_temp);
+
+      
     }
   }
 
