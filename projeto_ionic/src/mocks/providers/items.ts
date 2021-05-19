@@ -60,7 +60,7 @@ export class Items {
   }
 
   delete(item: Item) {
-    var item_temp = Object.create(item);
+    var item_temp = new Item(item);
     item_temp.status = "Retirado";
     this.itemsHistorico.registrar(item_temp);
 
@@ -71,11 +71,11 @@ export class Items {
     var achou = this.items.indexOf(item);
     if (achou == -1){
        
-       var item_temp  = Object.create(item);
+       var item_temp  = new Item(item);
        item_temp.status = "Pré-selecionado";
        this.items.push(item_temp);
 
-       var item_temp2 = Object.create(item);
+       var item_temp2 = new Item(item);
        item_temp2.status = "Pré-selecionado";
        this.itemsHistorico.registrar(item_temp2);
     }
@@ -85,7 +85,7 @@ export class Items {
   confirmar_item(item: Item){
     if (item.status == "Pré-selecionado"){
       item.status = "Selecionado";
-      var item_temp = Object.create(item);
+      var item_temp = new Item(item);
       this.itemsHistorico.registrar(item_temp);
 
       
@@ -98,7 +98,7 @@ export class Items {
       if (this.items[posicao].status == "Selecionado"){
         this.items[posicao].status = "Solicitado";
 
-        var item_temp = Object.create(this.items[posicao]);
+        var item_temp = new Item(this.items[posicao]);
         this.itemsHistorico.registrar(item_temp);
       }
       

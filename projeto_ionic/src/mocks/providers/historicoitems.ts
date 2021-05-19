@@ -53,7 +53,7 @@ export class ItemsHistorico {
   }
 
   registrar(item: Item) {
-    var item_temp = Object.create(item);
+    var item_temp = new Item(item);
     var data = new Date();
 
     var ano = data.getFullYear();
