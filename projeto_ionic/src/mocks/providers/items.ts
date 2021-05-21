@@ -101,6 +101,12 @@ export class Items {
         var item_temp = new Item(this.items[posicao]);
         this.itemsHistorico.registrar(item_temp);
       }
+      else if (this.items[posicao].status == "Solicitado"){
+        this.items[posicao].status = "Pré-matriculado";
+
+        var item_temp = new Item(this.items[posicao]);
+        this.itemsHistorico.registrar(item_temp);
+      }
       
     }
   }
