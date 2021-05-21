@@ -32,9 +32,9 @@ export class TutorialPage {
         console.log('Loaded values', values);
         this.slides = [
           {
-            title: values.TUTORIAL_SLIDE1_TITLE,
-            description: values.TUTORIAL_SLIDE1_DESCRIPTION,
-            image: 'assets/img/ica-slidebox-img-1.png',
+            title: "Bem-vindo ao SIGAA",
+            description: "Neste tutorial você aprederá a usar a plataforma.",
+            image: '../assets/img/unb-logo.svg',
           },
           {
             title: values.TUTORIAL_SLIDE2_TITLE,
