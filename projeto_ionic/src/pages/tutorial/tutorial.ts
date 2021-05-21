@@ -37,14 +37,19 @@ export class TutorialPage {
             image: '../assets/img/unb-logo.svg',
           },
           {
-            title: values.TUTORIAL_SLIDE2_TITLE,
+            title: "Tela de matrícula",
             description: values.TUTORIAL_SLIDE2_DESCRIPTION,
-            image: 'assets/img/ica-slidebox-img-2.png',
+            image: 'assets/img/tutorial/tutorial1.png',
           },
           {
-            title: values.TUTORIAL_SLIDE3_TITLE,
+            title: "Tela de lista de oferta",
             description: values.TUTORIAL_SLIDE3_DESCRIPTION,
-            image: 'assets/img/ica-slidebox-img-3.png',
+            image: 'assets/img/tutorial/tutorial2.png',
+          },
+          {
+            title: "Tela de histórico de matrícula",
+            description: values.TUTORIAL_SLIDE3_DESCRIPTION,
+            image: 'assets/img/tutorial/tutorial3.png',
           }
         ];
       });
