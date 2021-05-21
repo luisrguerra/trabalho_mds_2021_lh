@@ -21,11 +21,20 @@ export class SearchPage {
   getItems(ev) {
     let val = ev.target.value;
     if (!val || !val.trim()) {
-      this.currentItems = [];
+      this.currentItems = this.itemsOferta.query({
+        name: ""
+      });
       return;
     }
     this.currentItems = this.itemsOferta.query({
       name: val
+    });
+  }
+
+  //mostrar todos os itens na pesquisa
+  ionViewDidLoad() {
+    this.currentItems = this.itemsOferta.query({
+      name: ""
     });
   }
 
