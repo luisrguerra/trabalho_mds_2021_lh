@@ -68,7 +68,9 @@ export class Items {
   }
 
   matricular(item: Item){
+    console.log("Matricular:",item);
     var achou = this.items.indexOf(item);
+    console.log("Achou:",achou);
     if (achou == -1){
        
        var item_temp  = new Item(item);
@@ -86,9 +88,12 @@ export class Items {
     if (item.status == "Pré-selecionado"){
       item.status = "Selecionado";
       var item_temp = new Item(item);
-      this.itemsHistorico.registrar(item_temp);
-
-      
+      this.itemsHistorico.registrar(item_temp);    
+    }
+    else if (item.status == "Pré-matriculado"){
+      item.status = "Matrícula Solicitada";
+      var item_temp = new Item(item);
+      this.itemsHistorico.registrar(item_temp);    
     }
   }
 
@@ -96,13 +101,19 @@ export class Items {
     for (let item of this.items){
       var posicao = this.items.indexOf(item);
       if (this.items[posicao].status == "Selecionado"){
-        this.items[posicao].status = "Solicitado";
+        this.items[posicao].status = "Pré-matrícula solicitada";
 
         var item_temp = new Item(this.items[posicao]);
         this.itemsHistorico.registrar(item_temp);
       }
-      else if (this.items[posicao].status == "Solicitado"){
+      else if (this.items[posicao].status == "Pré-matrícula solicitada"){
         this.items[posicao].status = "Pré-matriculado";
+
+        var item_temp = new Item(this.items[posicao]);
+        this.itemsHistorico.registrar(item_temp);
+      }
+      else if (this.items[posicao].status == "Matrícula Solicitada"){
+        this.items[posicao].status = "Matriculado";
 
         var item_temp = new Item(this.items[posicao]);
         this.itemsHistorico.registrar(item_temp);

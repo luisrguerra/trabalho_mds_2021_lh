@@ -20,6 +20,10 @@ export class ItemDetailPage {
          document.getElementById("doisBotoes").style.display = "inherit";
          document.getElementById("botaoLongoRetirar").style.display = "none";
     }
+    else if (this.item.status == "Pré-matriculado"){
+      document.getElementById("doisBotoes").style.display = "inherit";
+      document.getElementById("botaoLongoRetirar").style.display = "none";
+    }
     else{
          document.getElementById("doisBotoes").style.display = "none";
          document.getElementById("botaoLongoRetirar").style.display = "inherit";
