@@ -69,7 +69,7 @@ export class Items {
 
   matricular(item: Item){
     console.log("Matricular:",item);
-    var achou = this.items.indexOf(item);
+    var achou = this.items.findIndex(i => i.name === item.name);
     console.log("Achou:",achou);
     if (achou == -1){
        
