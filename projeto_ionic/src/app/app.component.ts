@@ -41,7 +41,7 @@ export class MyApp {
     { title: 'Cadastro', component: 'SignupPage' },
     { title: 'Lista', component: 'ListMasterPage' },
     { title: 'Menu', component: 'MenuPage' },
-    { title: 'Histórico Versão Antiga', component: 'SettingsPage' },
+    //{ title: 'Histórico Versão Antiga', component: 'SettingsPage' },
     { title: 'Histórico', component: 'HistoricoPage' },
     { title: 'Item Oferta', component: 'ItemOfertaPage' },
     { title: 'Pesquisa', component: 'SearchPage' }
