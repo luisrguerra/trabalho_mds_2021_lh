@@ -22,13 +22,13 @@
 </ion-header>
 
 <ion-content>
-    
-    
-    
 
+  <div id="avisoVazio" style="display:none; text-align: center;">
+    <br>
+    <p style="font-size: 1.3em;color: rgb(71, 71, 71);">Nenhuma matrícula</p>
+  </div>
 
-
-  <ion-list>
+  <ion-list >
     <ion-item-sliding *ngFor="let item of currentItems">
       <button ion-item (click)="openItem(item)">
         <!-- desativação das fotos de perfil -->

@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { ItemsOferta } from '../../providers';
 import { Items } from '../../providers';
+//import { Item } from '../../models/item';
 
 @IonicPage()
 @Component({
@@ -16,12 +17,14 @@ export class ItemOfertaPage {
     this.item = navParams.get('item') || itemsOferta.defaultItem;
   }
 
-
-  matricularBotao() {
-    this.items.matricular(this.item);
-    this.navCtrl.setRoot('SearchPage', {}, {
-      animate: true,
-      direction: 'forward'
+ 
+  matricularBotao(disciplinaSelecionada: any) {
+    
+    //Ir para a página de seleção de turma
+    this.navCtrl.push('SelecionarTurmaPage', {
+       
+      //Envio de variavel para a próxima página
+       disciplinaSelecionada: disciplinaSelecionada
     });
   }
 }

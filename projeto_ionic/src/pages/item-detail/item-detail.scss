@@ -7,9 +7,9 @@ page-item-detail {
   }
 
   .item-detail {
-    width: 100%;
-    background: white;
-    position: absolute;
+    //width: 100%;
+    //background: white;
+    //position: absolute;
   }
 
   button.botoes {
@@ -40,6 +40,18 @@ page-item-detail {
       button.botoes{
          max-width: 9em;
       }
+      h6{
+        font-size: 1.2em;
+      }
+      p{
+        font-size: 1.2em;
+      }
+      .item-detail{
+        width: auto;
+        margin-top: 2%;
+        margin-inline: 2%;
+      }
+      
       
   }
 

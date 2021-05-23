@@ -22,6 +22,21 @@ export class HistoricoPage {
   ionViewDidLoad() {
   }
 
+  //Ao entrar na página
+  ionViewWillEnter(){
+    //aviso de lista de matrícula vazia 
+    var vazio = this.currentItems.length;
+    if (vazio == 0){
+      //Mostra aviso de lista de matrícula vazia
+      document.getElementById("avisoVazioHistorico").style.display = "inherit";
+    }
+    else{
+      //Esconde aviso de lista de matrícula vazia
+      document.getElementById("avisoVazioHistorico").style.display = "none";
+    }
+
+  }
+
   /**
    * Prompt the user to add a new item. This shows our ItemCreatePage in a
    * modal and then adds the new item to our data source if the user created one.

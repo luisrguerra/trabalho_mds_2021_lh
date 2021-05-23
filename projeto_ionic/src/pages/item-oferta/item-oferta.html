@@ -7,7 +7,7 @@
 </ion-header>
 
 
-<ion-content>
+<ion-content class="margem">
   <!-- Remoção das fotos de animais -->
   <!-- <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
   </div> -->
@@ -16,8 +16,11 @@
     <h2>{{item.name}}</h2>
     <h6>Código: {{item.codigo}}</h6>
     <br>
-    <p>Horários:</p>
-    <p style="white-space: pre;">{{item.horario}}</p>
+    <h6>Ementa:</h6>
+    <p style="white-space: normal;">{{item.descricao}}</p>
+    <p style="white-space: normal;">Pré-requesito: {{item.preRequisito}}</p>
+    <!-- <p>Horários:</p> -->
+    <!-- <p style="white-space: pre;">{{item.horario}}</p> -->
     <!-- <p>{{item.about}}</p> -->
     <!-- <p>Status: {{item.status}}</p> --> 
   </div>
@@ -25,7 +28,7 @@
 
 <ion-footer no-border transparent>
   <div class="botaomargem" >
-    <button class="botaomatricular" large ion-button block (click)="matricularBotao()" >
+    <button class="botaomatricular" large ion-button block (click)="matricularBotao(item)" >
       <ion-icon name="add-circle"></ion-icon>&nbsp; Matricular
     </button>
   </div>

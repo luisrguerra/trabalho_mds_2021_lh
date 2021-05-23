@@ -1,17 +1,17 @@
-page-list-master {
+page-aviso-matricula {
+    .iconeAviso{
+        color:rgb(85, 85, 85);
+        font-size: 10em;
+        width: 100%;
+        text-align: center;
+    }
 
     .botaoconfirmar {
-        margin: auto;
-        background-color: #228B41;
+        margin: auto;  
         height: 2em;
     
     }
-    .botaoconfirmar:hover:not(.disable-hover){
-        background-color: #228B41;
-    }
-    .botaoconfirmar.activated{
-        background-color: #228B41;
-    }
+
     @media screen and (min-width: 700px) {
         .botaoconfirmar{
            max-width: 9em;
@@ -26,5 +26,5 @@ page-list-master {
         margin-bottom: 9px;
         margin-top: 0px;
     }
-}
 
+}

@@ -44,6 +44,8 @@ export class MyApp {
     //{ title: 'Histórico Versão Antiga', component: 'SettingsPage' },
     { title: 'Histórico', component: 'HistoricoPage' },
     { title: 'Item Oferta', component: 'ItemOfertaPage' },
+    { title: 'Aviso de Matrícula', component: 'AvisoMatriculaPage' },
+    //{ title: 'Selecionar Turma', component: 'SelecionarTurmaPage' },
     { title: 'Pesquisa', component: 'SearchPage' }
   ]
 
