@@ -51,14 +51,25 @@ export class SelecionarTurmaPage {
     disciplinaMatricular.professorTurmaMatriculada= turmasLista.professor;
     disciplinaMatricular.localTurmaMatriculada= turmasLista.local;
     
+    var jaExiste = this.items.procurarRegistro(disciplinaMatricular);
     //Salvamento da matrícula
     this.items.matricular(disciplinaMatricular);
     
     //Voltar a pagina de busca
-    this.navCtrl.setRoot('AvisoMatriculaPage', {}, {
-      animate: true,
-      direction: 'forward'
-    });
+    
+    if (jaExiste == false){
+      this.navCtrl.setRoot('AvisoMatriculaPage', {}, {
+        animate: true,
+        direction: 'forward'
+      });
+    }else{
+      this.navCtrl.setRoot('SearchPage', {}, {
+        animate: true,
+        direction: 'forward'
+      });
+    }
+    
+    
   }
 
 }

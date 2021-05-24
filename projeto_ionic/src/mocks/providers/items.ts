@@ -3,6 +3,9 @@ import { Injectable } from '@angular/core';
 import { Item } from '../../models/item';
 import { ItemsHistorico} from '../../providers';
 
+import { AlertController } from 'ionic-angular';
+
+
 @Injectable()
 export class Items {
   items: Item[] = [];
@@ -16,7 +19,7 @@ export class Items {
   };
 
 
-  constructor(public itemsHistorico: ItemsHistorico) {
+  constructor(public itemsHistorico: ItemsHistorico,public alertCtrl: AlertController) {
     let items = [
       /*{
         "name": "Metodologia e Desenvolvimento de Software",
@@ -66,12 +69,20 @@ export class Items {
 
     this.items.splice(this.items.indexOf(item), 1);
   }
+ 
+  procurarRegistro(item: Item){
+    var achou = this.items.findIndex(i => i.name === item.name);
+    if (achou == -1){
+         return false;
+    }
+    else{
+      return true;
+    }
+  }
 
   matricular(item: Item){
-    console.log("Matricular:",item);
-    var achou = this.items.findIndex(i => i.name === item.name);
-    console.log("Achou:",achou);
-    if (achou == -1){
+    var encontrou = this.procurarRegistro(item);
+    if (encontrou == false){
        
        var item_temp  = new Item(item);
        item_temp.status = "Pré-selecionado";
@@ -80,6 +91,9 @@ export class Items {
        var item_temp2 = new Item(item);
        item_temp2.status = "Pré-selecionado";
        this.itemsHistorico.registrar(item_temp2);
+    }
+    else{
+      this.avisoJaRegistrado();
     }
     
   }
@@ -121,4 +135,15 @@ export class Items {
       
     }
   }
+
+  avisoJaRegistrado() {
+    const alert = this.alertCtrl.create({
+      title: 'Já há uma solicitação',
+      subTitle: 'Essa disciplina já está em processo de matrícula ou já foi matriculada.',
+      buttons: ['OK']
+    });
+    alert.present();
+  }
+
+
 }
