@@ -58,7 +58,7 @@ export class SelecionarTurmaPage {
     //Voltar a pagina de busca
     
     if (jaExiste == false){
-      this.navCtrl.setRoot('AvisoMatriculaPage', {}, {
+      this.navCtrl.setRoot('PrioridadePage', {}, {
         animate: true,
         direction: 'forward'
       });

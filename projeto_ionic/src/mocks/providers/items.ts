@@ -92,7 +92,7 @@ export class Items {
        item_temp2.status = "Pré-selecionado";
        this.itemsHistorico.registrar(item_temp2);
 
-       this.selecionarPrioridade();
+       //this.selecionarPrioridade();
     }
     else{
       this.avisoJaRegistrado();
@@ -147,7 +147,7 @@ export class Items {
     alert.present();
   }
 
-  async selecionarPrioridade() {
+  /*async selecionarPrioridade() {
     const alert = await this.alertCtrl.create({
       title: 'Prioridade de matrícula',
       inputs: [
@@ -202,14 +202,14 @@ export class Items {
         }
       ],
       buttons: [
-        /*{
+        {
           text: 'Cancel',
           role: 'cancel',
           cssClass: 'secondary',
           handler: () => {
             console.log('Confirm Cancel');
           }
-        },*/
+        },
          {
           text: 'Ok',
           handler: () => {
@@ -219,7 +219,7 @@ export class Items {
     });
 
     await alert.present();
-  }
+  } */
 
 
 }

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Prioridade da Matrícula</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <div class="margem">
+  <br><br>
+  <div style="margin-left:auto;margin-right:auto;width:max-content; align-content: center;">
+    <img src="../assets/img/prioridade.svg" style="width:16em;">
+  </div>
+  <br><br><br><br>
+  <h1 style="font-size: 1.3em;">Nível de prioridade na matrícula:</h1>
+  <!-- <p style="font-size: 1.2em;">Não se esqueça de confirmar a sua seleção de disciplina para prosseguir na sua matrícula.</p> -->
+
+  <ion-range  id="prioridadeRange" pin="true"  name="vol" min="0" max="5" snaps="true"></ion-range>
+
+ </div> 
+</ion-content>
+
+<ion-footer no-border transparent>
+  <div class="botaomargem">
+    <button class="botaoconfirmar" large ion-button block (click)="prosseguirBotao()">
+      PROSSEGUIR &nbsp; <ion-icon name="arrow-forward"></ion-icon>
+    </button>
+  </div>
+</ion-footer>
