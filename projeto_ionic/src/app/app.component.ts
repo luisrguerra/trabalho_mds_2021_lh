@@ -36,6 +36,7 @@ export class MyApp {
     { title: 'Bem Vindo', component: 'WelcomePage' },
     { title: 'Menu Principal', component: 'TabsPage' },
     { title: 'Posts', component: 'CardsPage' },
+    { title: 'Adicionar Item', component: 'ItemCreatePage' },
     { title: 'Conteúdo', component: 'ContentPage' },
     { title: 'Login', component: 'LoginPage' },
     { title: 'Cadastro', component: 'SignupPage' },

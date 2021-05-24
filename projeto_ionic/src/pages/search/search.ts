@@ -25,7 +25,8 @@ export class SearchPage {
       return;
     }
     this.currentItems = this.itemsOferta.query({
-      name: val
+      name: val,
+      codigo: val
     });
   }
 
