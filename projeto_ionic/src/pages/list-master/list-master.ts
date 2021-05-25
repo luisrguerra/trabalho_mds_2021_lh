@@ -77,5 +77,9 @@ export class ListMasterPage {
   confirmarListaBotao() {
     this.items.confirmar();
   }
+
+  abrirPerfil() {
+    this.navCtrl.push("UsuarioPage");
+  }
   
 }

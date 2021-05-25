@@ -75,5 +75,9 @@ export class HistoricoPage {
     });
   }
 
+  abrirPerfil() {
+    this.navCtrl.push("UsuarioPage");
+  }
+
   
 }
