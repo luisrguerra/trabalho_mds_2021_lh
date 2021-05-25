@@ -1,0 +1,23 @@
+page-usuario {
+    div.margem{
+        max-width: 84%;
+        margin: auto;
+    }
+    div.perfil-imagem{
+        margin-left:auto;margin-right:auto;width:max-content; align-content: center;
+    }
+    img.perfil-imagem{
+        border-radius: 100%;
+        width: 10em;
+    }
+    p{
+      font-size: 1.2em;  
+    }
+    
+    @media screen and (min-width: 700px) {
+        div.margem{
+            max-width: 24em;
+            margin: auto;
+        }
+    }
+}

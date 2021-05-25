@@ -43,6 +43,7 @@ export class MyApp {
     { title: 'Lista', component: 'ListMasterPage' },
     { title: 'Menu', component: 'MenuPage' },
     //{ title: 'Histórico Versão Antiga', component: 'SettingsPage' },
+    { title: 'Usuário', component: 'UsuarioPage' },
     { title: 'Histórico', component: 'HistoricoPage' },
     { title: 'Item Oferta', component: 'ItemOfertaPage' },
     { title: 'Seleção de Prioridade', component: 'PrioridadePage' },
