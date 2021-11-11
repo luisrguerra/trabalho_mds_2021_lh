@@ -1,4 +1,5 @@
-# trabalho_mds_2021_lh
+# Trabalho de Metododologia de Desenvolvimeno de Software
+Simulador da plataforma de matrícula SIGAA desenvolvido em Ionic e Angular.
 
 ![tela inicial smartphone](https://user-images.githubusercontent.com/31783838/141222358-deac431f-e18a-4263-b4e0-decdb783bae6.png)
 ![nenhuma matrícula smartphone](https://user-images.githubusercontent.com/31783838/141222416-90adeb9b-2e04-42af-a282-68fa88157b8d.png)
